@@ -1,5 +1,5 @@
-//sinperamp.cpp
-//g++ sinperamp.cpp -o sinperamp.o
+//sinampperiod.cpp
+//g++ sinperiodamp.cpp -o sinperiodamp.o
 #include <iostream>
 #include <cmath>
 using namespace std;
@@ -19,11 +19,12 @@ double PI=3.14159265359;
 double a, p, t, rad, sr, aspr;
 //t(theta) rad(radian) sr(sine result)
 //aspr (amplitude * sine (period*t))
-	cout<<"\n Input a Amplitude : ";
+	cout<<"\n \t Input a Amplitude : ";
 	cin>>a;
-	cout<<"\n Input a Period : ";
+	cout<<"\n \t Input a Period : ";
 	cin>>p;
 	cout <<"Theta\tsin(t)\ta*sin(pt) \n";
+	cout<<"\n";
 	for ( t=0 ; t<=360 ; t = t + 15 ) 
 	{
 	  rad = t * (PI / 180);
